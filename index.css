@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    margin-top: -50px;
+    margin-left: 25vw;
+    /* justify-content: space-between;    */
+}
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.Header {
+    width: 10px;
+}   
+
+.search-bar {   
+    margin-left: 20vw;
+}
+.nav-login {
+    margin-left: 10vw;
+}
+
+.Login {
+    background-color: white;
+    color:rgb(34, 218, 34);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 3px solid rgb(34, 218, 34);
+}
+.Signup {
+    background-color: rgb(34, 218, 34);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
