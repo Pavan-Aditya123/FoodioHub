@@ -37,3 +37,72 @@ li {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+#sidebar {
+    margin-top: 10vh;
+    width: 200px;
+    height: 100%;
+    
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+.CatH {
+    margin-left: 3vw;
+}
+.Categories {
+   
+    /* margin: 5vh; */
+    font-display: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    margin : 3vh;
+    margin-left: 5vw;
+}
+
+.Menu-Items {
+    margin-left: 15vw;
+    display: flex;
+}
+
+.Card {
+    display: flexbox;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10vh;
+    margin-right: 1vw;
+    height: 25vw;
+    padding: 30px;
+}
+
+img {
+    height: 12vw;
+    width: 20vw;
+    border-radius: 10px;
+}
+.Order {
+    margin-top: 10vh;
+    margin-left : 15vw;
+}
+footer {
+    background-color: grey;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    margin-top: 20px;
+}
+.Order{
+    background-color: rgb(34, 218, 34);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
